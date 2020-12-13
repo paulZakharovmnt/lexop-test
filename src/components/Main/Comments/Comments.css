@@ -1,0 +1,89 @@
+.project-comments-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.project-comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.project-comments-header > h3 {
+  margin: 10px 30px;
+}
+
+.open-comments-icon {
+  font-size: 30px;
+  color: rgb(241, 161, 12);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  width: 50px;
+  height: 30px;
+}
+
+.open-comments-icon:hover {
+  color: red;
+}
+
+.commentsOpened {
+  transform: rotateX(180deg);
+}
+
+.project-comments {
+  width: 100%;
+}
+
+.comments-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+.comments-header > h4 {
+  margin: 0;
+}
+
+.comment-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  border-bottom: 1px solid grey;
+}
+
+.new-comment-input {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+
+.new-comment-input > input {
+  width: 70%;
+  border: 3px solid black;
+  outline: none;
+  height: 30px;
+  padding: 4px;
+  font-size: 20px;
+}
+
+.add-comment-btn {
+  padding: 6px 8px;
+}
