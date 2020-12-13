@@ -1,0 +1,65 @@
+.login-container {
+  width: 400px;
+  height: 600px;
+  background-color: #354152;
+  margin: 0 auto;
+  margin-top: 150px;
+  box-shadow: 0 0 200px 10px black;
+}
+
+.login {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login > h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.login > input {
+  border: black 1px solid;
+  width: 70%;
+  color: grey;
+  text-align: center;
+  appearance: none;
+  background: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 25px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.signin-container {
+  width: 80%;
+}
+
+.login-btn {
+  border: 3px solid black;
+  margin: 0 auto;
+
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+
+  cursor: pointer;
+  width: 90%;
+  margin-top: 20px;
+}
+.login-btn:hover {
+  border: 3px solid rgb(241, 161, 12);
+}
+.has-account {
+  color: rgb(126, 126, 126);
+}
+
+.has-account > div {
+  cursor: pointer;
+}
+
+.has-account > div:hover {
+  color: aliceblue;
+}
