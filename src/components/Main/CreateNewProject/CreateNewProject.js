@@ -43,16 +43,14 @@ const CreateNewProject = ({
     <div className="create-project-container">
       <h2>Create New Project</h2>
 
-      <form
-        className="create-project-form"
-        onSubmit={(event) => submitUserInputs(event.target.value)}
-      >
+      <form className="create-project-form" onSubmit={submitUserInputs}>
         <div className="inputs-container">
           <div className="left-side-inputs">
             <input
               className="create-project-input"
               placeholder="Title"
               onChange={(event) => setTitle(event.target.value)}
+              required
             />
             <input
               className="create-project-input"
@@ -94,9 +92,7 @@ const CreateNewProject = ({
             />
           </div>
         </div>
-        <div className="submit-btn btn" onClick={submitUserInputs}>
-          Submit
-        </div>
+        <input type="submit" value="Submit" className="submit-btn btn" />
       </form>
     </div>
   );
