@@ -1,0 +1,50 @@
+.nav {
+  background-color: rgb(241, 161, 12);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container-left {
+  margin-left: 50px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.new-project-btn {
+  margin-left: 100px;
+  width: 160px;
+  cursor: pointer;
+}
+
+.nav-container-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.new-project-btn {
+  padding: 8px 20px;
+}
+
+.logout-btn {
+  margin-right: 100px;
+  padding: 8px 50px;
+  border: 3px solid black;
+  transition: all 0.2s ease-in;
+  font-size: 20px;
+}
+.logout-btn:hover {
+  background-color: black;
+  border-radius: 25px;
+}
