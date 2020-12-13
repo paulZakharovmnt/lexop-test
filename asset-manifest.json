@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/lexop-test/static/css/main.bea4b388.chunk.css",
-    "main.js": "/lexop-test/static/js/main.51b12ccc.chunk.js",
-    "main.js.map": "/lexop-test/static/js/main.51b12ccc.chunk.js.map",
+    "main.css": "/lexop-test/static/css/main.668b4395.chunk.css",
+    "main.js": "/lexop-test/static/js/main.2613bcf1.chunk.js",
+    "main.js.map": "/lexop-test/static/js/main.2613bcf1.chunk.js.map",
     "runtime-main.js": "/lexop-test/static/js/runtime-main.469f7f64.js",
     "runtime-main.js.map": "/lexop-test/static/js/runtime-main.469f7f64.js.map",
     "static/js/2.1265edad.chunk.js": "/lexop-test/static/js/2.1265edad.chunk.js",
     "static/js/2.1265edad.chunk.js.map": "/lexop-test/static/js/2.1265edad.chunk.js.map",
     "index.html": "/lexop-test/index.html",
-    "static/css/main.bea4b388.chunk.css.map": "/lexop-test/static/css/main.bea4b388.chunk.css.map",
+    "static/css/main.668b4395.chunk.css.map": "/lexop-test/static/css/main.668b4395.chunk.css.map",
     "static/js/2.1265edad.chunk.js.LICENSE.txt": "/lexop-test/static/js/2.1265edad.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.469f7f64.js",
     "static/js/2.1265edad.chunk.js",
-    "static/css/main.bea4b388.chunk.css",
-    "static/js/main.51b12ccc.chunk.js"
+    "static/css/main.668b4395.chunk.css",
+    "static/js/main.2613bcf1.chunk.js"
   ]
 }
